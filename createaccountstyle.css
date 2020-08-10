@@ -1,0 +1,168 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background:  whitesmoke;
+    font-size: 18px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+h1
+{
+    text-align: center;
+}
+#createaccountbox
+{
+    margin: 50px auto;
+    width: 900px;
+    background: white;
+    display: flex;
+
+}
+.left-box
+{
+     box-sizing: border-box;
+     padding: 40px;
+     width: 50%;
+     
+    
+   
+
+}
+
+input[type="text"],input[type="password"],input[type="email"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border:  1px solid #726F6F;
+    outline: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+input[type=submit]
+{
+    height: 60px;
+    width: 250px;
+    background: #4953A1;
+    border: 1px solid #726F6F;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    transition: 0.2s ease;
+}
+input[type=submit]:hover,
+input[type=submit]:focus
+{
+    background: grey;
+    transition: 0.2s ease;
+}
+.right-box
+{
+    box-sizing: border-box;
+    padding: 40px;
+    background-image: url(fashion-tshirts-colour\ 1.svg);
+    background-size: cover;
+    background-position: bottom;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+}
+.loginlink{
+    
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    background: #4953A1;
+    border: 1px solid #726F6F;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .loginlink:hover, .loginlink:active {
+    background-color: red;
+  }
+
+.footer {
+    width: 100%;
+    display: block;
+    background: #050533;
+ 
+  }
+.inner-footer
+{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.footer-items
+{
+  
+   padding: 10px 40px;
+   box-sizing: border-box; 
+  
+   
+
+}
+h3
+{
+
+font-size: 18px;
+font-weight: bold;
+text-transform:uppercase ;
+color: #FFFFFF;
+border-bottom:  #ff9800;
+text-align: left;
+
+}
+
+ul
+{
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 0%;
+   text-align: left;
+}
+ul a
+{
+    text-decoration: none;
+    outline: none;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+ul a:hover
+{
+    color: #726F6F;
+}
+ul li
+{
+    
+    height: 25px;
+    
+}
+@media screen and (max-width :768px) {
+    #createaccountbox {
+        flex-direction: column;
+        width : auto
+    }
+    .left-box, .right-box {
+        width : 90vw
+    }
+}
